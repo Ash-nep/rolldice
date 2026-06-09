@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:rolldice/styled_text.dart';
 
-var startAlignment = Alignment.topLeft;
-var endAlignment = Alignment.bottomRight;
+final startAlignment = Alignment.topLeft;
+final endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
     const GradientContainer({super.key});
-    
+  
     @override
     Widget build(context) {
       return Container(
@@ -19,7 +19,7 @@ class GradientContainer extends StatelessWidget {
               end: endAlignment,
             ),
           ),
-          child: Center(
+          child: Center( 
             child: StyledText(),
               ),
       );      
